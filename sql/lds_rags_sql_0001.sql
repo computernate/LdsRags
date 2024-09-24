@@ -1,0 +1,6 @@
+USE LDSRags;
+
+ALTER TABLE Scripture ADD COLUMN ID INT AUTO_INCREMENT PRIMARY KEY;
+SELECT * FROM Scripture WHERE source="book of mormon";
+SELECT * FROM Scripture ORDER BY ID DESC; 
+
