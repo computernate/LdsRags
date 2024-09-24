@@ -1,0 +1,4 @@
+venv/*
+node_modules/*
+.vscode/*
+lds-rags-fr/node_modules/*
